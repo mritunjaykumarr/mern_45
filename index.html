@@ -1,78 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>This is form page</title>
 </head>
-<body>
-
-    <!-- Navigation -->
-    <nav>
-        <h2>My Portfolio</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <hr>
-    </nav>
-
-    <!-- Header -->
-    <header id="home">
-        <h1>Hello, I'm Mritunjay Kumar</h1>
-        <p>Aspiring Frontend Developer</p>
-        <hr>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student passionate about web development.
-            I enjoy building simple and user-friendly websites using HTML, CSS, and JavaScript.
-        </p>
-        <hr>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS (Basics)</li>
-            <li>JavaScript (Basics)</li>
-            <li>Python</li>
-            <li>Node.js (Learning)</li>
-        </ul>
-        <hr>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Portfolio Website</li>
-            <li>Resume to Portfolio Generator</li>
-            <li>Live Cricket Score Website</li>
-            <li>OTP Verification System</li>
-        </ul>
-        <hr>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: mritunjaykumarstm2013@gmail.com</p>
-        <p>Phone: +91 9470880956</p>
-        <hr>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Mritunjay Kumar. All Rights Reserved.</p>
-    </footer>
-
-</body>
+    <body>
+        <div class="container" >
+            <h1>This id form  page</h1>
+            <form action="backend.php">
+                <label class="name" >Enter Your name:</label>
+                <input type="text" placeholder="Enter Your Name"> <br><br><hr>
+                <label class="name" >Enter Your Email:</label>
+                <input type="email" placeholder="Enter Your gmail"> <br><br><hr>
+                <label class="name" >Enter Your password:</label>
+                <input type="password" placeholder="Enter Your Password"> <br><br><hr>
+                <label class="name" >Enter Your Phone Number:</label>
+                <input type="number" placeholder="Enter Your Phone number"> <br><br><hr>
+                <label class="date" >Enter Your DOB:</label>
+                <input type="date" placeholder="Enter Your DOB"> <br><br><hr>
+               <input type="radio" id="html" name="gender" value="HTML">
+<label for="Male">Male</label><br>
+<input type="radio"  name="gender" >
+<label for="Female">Female</label><br>
+<input type="radio" name="gender" >
+<label for="RNS">Rather not say</label>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+                 <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
 </html>
